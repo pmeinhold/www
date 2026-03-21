@@ -13,8 +13,9 @@
   {
     devShells."x86_64-linux".default  = pkgs.mkShell {
       packages = with pkgs; [
-        typst
-        typstPackages.typsite
+        zola
+        # typst
+        # typstPackages.typsite
       ];
     };
   };

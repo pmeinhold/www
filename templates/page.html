@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"
+  onload="renderMathInElement(document.body, {
+    delimiters: [
+      {left: '$$', right: '$$', display: true},
+      {left: '$',  right: '$',  display: false}
+    ],
+    throwOnError: false
+  });"></script>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>{{ page.title }} | {{ config.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- This MUST be inline and before the stylesheet to prevent flash -->
+    <script>
+      document.documentElement.setAttribute(
+        'data-theme',
+        localStorage.getItem('theme') || 'light'
+      );
+    </script>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header>
+        <a href="/">← Back home</a>
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+            <span class="theme-toggle-icon">🌙</span>
+        </button>
+    </header>
+
+    <article>
+        <h1>{{ page.title }}</h1>
+        <time>{{ page.date }}</time>
+
+        {{ page.content | safe }}
+    </article>
+
+    <script src="/theme.js"></script>
+</body>
+</html>
