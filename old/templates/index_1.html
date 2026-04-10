@@ -4,6 +4,15 @@
     <meta charset="utf-8">
     <title>{{ config.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- This MUST be inline and before the stylesheet to prevent flash -->
+    <script>
+      document.documentElement.setAttribute(
+        'data-theme',
+        localStorage.getItem('theme') || 'light'
+      );
+    </script>
+
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
