@@ -1,10 +1,13 @@
 <header>
   {%- include "language_switcher.html" %}
-  <a href="{{ get_url(path="@/_index.md", lang=lang) }}" class="title">
-    <h1>{{ config.title }}</h1>
-  </a>
-  <button id="theme-toggle" aria-label="Toggle dark/light mode">🌓</button>
-  <nav aria-label="{{ trans(key="site", lang=lang)}}">
+  <div id="title-bar">
+    <a href="{{ get_url(path="@/_index.md", lang=lang) }}" class="title">
+      <h1>{{ config.title }}</h1>
+    </a>
+    <button id="theme-toggle" aria-label="Toggle dark/light mode">🌓</button>
+  </div>
+
+  <nav aria-label="{{ trans(key="site", lang=lang) }}">
     {%- include "nav.html" %}
   </nav>
 </header>
