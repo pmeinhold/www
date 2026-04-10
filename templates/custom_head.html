@@ -2,6 +2,32 @@
 <html lang="{{ lang | default(value="en-US" ) }}">
 <head>
 
+  <link rel="stylesheet" href="/css/custom.css">
+
+  <script>
+    // Apply saved theme immediately to avoid flash
+    const saved = localStorage.getItem('theme');
+    if (saved) {
+      document.documentElement.setAttribute('data-theme', saved);
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      const toggle = document.getElementById('theme-toggle');
+
+      toggle.addEventListener('click', () => {
+        const current = document.documentElement.getAttribute('data-theme');
+        // If no attribute set, detect current system preference
+        const isDark = current
+          ? current === 'dark'
+          : window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+        const next = isDark ? 'light' : 'dark';
+        document.documentElement.setAttribute('data-theme', next);
+        localStorage.setItem('theme', next);
+      });
+    });
+  </script>
+
   <!-- KaTeX -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.45/dist/katex.min.css" integrity="sha384-UA8juhPf75SzzAMA/4fo3yOU7sBJ0om7SCD2GHq0fZqZco6tr1UCV7nUbk9J90JM" crossorigin="anonymous">
   <!-- The loading of KaTeX is deferred to speed up page rendering -->
