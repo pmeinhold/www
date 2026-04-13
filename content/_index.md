@@ -1,7 +1,8 @@
 +++
 +++
 
-Welcome to my website! :) I guess I'm one of the cool kids now! \
+Welcome to my website! :) \
+I guess I'm one of the cool kids now!
 Read [my first blog post](blog/first-post) to see why and how I set it up.
 
 Three _very important_ facts about me:
