@@ -1,3 +1,40 @@
+/* DEFAULT: Catppuccin Mocha (Dark Mode) */
+:root, [data-theme="dark"] {
+  --bg: #1e1e2e;
+  --surface: #313244;
+  --overlay: #45475a;
+  --text: #cdd6f4;
+  --subtext: #a6adc8;
+  --base: #1e1e2e;
+  --mantle: #181825;
+  --crust: #11111b;
+
+  --rosewater: #f5e0dc;
+  --flamingo: #f2cdcd;
+  --pink: #f5c2e7;
+  --mauve: #cba6f7;
+  --red: #f38ba8;
+  --maroon: #eba0ac;
+  --peach: #fab387;
+  --yellow: #f9e2af;
+  --green: #a6e3a1;
+  --teal: #94e2d5;
+  --sky: #89dceb;
+  --sapphire: #74c7ec;
+  --blue: #89b4fa;
+  --lavender: #b4befe;
+
+  --code-bg: #181825;
+  --code-text: #cdd6f4;
+  --code-comment: #a6adc8;
+  --code-keyword: #cba6f7;
+  --code-string: #a6e3a1;
+  --code-function: #89b4fa;
+  --code-number: #fab387;
+  --code-operator: #89dceb;
+  --code-variable: #f38ba8;
+}
+
 /* Catppuccin Latte (Light Mode) */
 [data-theme="light"] {
   --bg: #eff1f5;
@@ -33,41 +70,4 @@
   --code-number: #fe640b;
   --code-operator: #04a5e5;
   --code-variable: #d20f39;
-}
-
-/* Catppuccin Mocha (Dark Mode) */
-[data-theme="dark"] {
-  --bg: #1e1e2e;
-  --surface: #313244;
-  --overlay: #45475a;
-  --text: #cdd6f4;
-  --subtext: #a6adc8;
-  --base: #1e1e2e;
-  --mantle: #181825;
-  --crust: #11111b;
-
-  --rosewater: #f5e0dc;
-  --flamingo: #f2cdcd;
-  --pink: #f5c2e7;
-  --mauve: #cba6f7;
-  --red: #f38ba8;
-  --maroon: #eba0ac;
-  --peach: #fab387;
-  --yellow: #f9e2af;
-  --green: #a6e3a1;
-  --teal: #94e2d5;
-  --sky: #89dceb;
-  --sapphire: #74c7ec;
-  --blue: #89b4fa;
-  --lavender: #b4befe;
-
-  --code-bg: #181825;
-  --code-text: #cdd6f4;
-  --code-comment: #a6adc8;
-  --code-keyword: #cba6f7;
-  --code-string: #a6e3a1;
-  --code-function: #89b4fa;
-  --code-number: #fab387;
-  --code-operator: #89dceb;
-  --code-variable: #f38ba8;
 }

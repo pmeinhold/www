@@ -4,17 +4,17 @@ date = 2026-04-11
 [taxonomies]
 +++
 
-Finally, I came around to create my own little room on the web.
+Finally, I came around to creating my own little room on the web.
 I cannot imagine there being a better use of my time than creating a nice little blog and enjoying
-to avoid writing my master's thesis! :D
+avoiding writing my master's thesis! :D
 
 Anyway, this first post should be about the process of creating this site, my thoughts and
 preferences for it, and whatever else I'll come up with.
 
 ## Inspiration
 
-In the middle of 2025, I started reading [Steve Klabnik's blog](https://steveklabnik.com/), for very
-interesing thoughts on the [Rust programming language](https://rust-lang.org/) and
+In the middle of 2025, I started reading [Steve Klabnik's blog](https://steveklabnik.com/) for very
+interesting thoughts on the Rust programming language and
 [AI](https://www.youtube.com/watch?v=VZWEhS3u-FI).
 Inevitably, I got motivated to create a similar blog for myself, in which I can just poop out all
 the badly fleshed-out thoughts that I have without needing to rely on ancient and

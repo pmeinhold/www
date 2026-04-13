@@ -1,7 +1,7 @@
 +++
 +++
 
-Welcome to my website! :) \
+Welcome to my website! :) I guess I'm one of the cool kids now! \
 Read [my first blog post](blog/first-post) to see why and how I set it up.
 
 Three _very important_ facts about me:
@@ -16,5 +16,3 @@ Three _very important_ facts about me:
     progressive taxes and a strong welfare system!
     And, yeah, most importantly, I also do what leftists enjoy the most: criticize other leftists.
     So I _must_ be one of you, right?! Right?!?!?!
-
-Guess, I'm one of the cool kids now!
